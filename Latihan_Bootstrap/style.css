@@ -1,0 +1,36 @@
+.big-box,
+.small-box,
+.header-box,
+.footer-box {
+  background: #d9d9d9;
+  padding: 10px;
+}
+
+.header-box {
+  display: flex;
+  align-items: center;
+}
+
+.big-box {
+  height: 350px;
+  position: relative;
+}
+
+.small-box {
+  height: 160px;    
+  position: relative;
+}
+
+.label-box {
+  background: #fff;
+  padding: 6px 12px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.footer-box {
+  padding: 15px;
+}
+.small-box p {
+    font-size: 12px;
+}
